@@ -8,7 +8,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
                     <a href="#intro" className ="logo">Alberto Canales</a>
                 <div className= "itemContainer">
                     <Person className= "icon"/>
-                    <span>12 12 13 43</span>
+                    <span>210-584-8156</span>
                 </div>
                 <div className= "itemContainer">
                     <AlternateEmail className= "icon"/>
