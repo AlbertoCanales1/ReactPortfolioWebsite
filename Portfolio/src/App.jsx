@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import "./app.scss"
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
+import React from "react";
 
 
 function App() {
