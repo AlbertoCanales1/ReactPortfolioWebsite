@@ -9,8 +9,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --mode=development",
+    "start": "node server.js"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlbertoCanales1/ReactPortfolioWebsite.git"
