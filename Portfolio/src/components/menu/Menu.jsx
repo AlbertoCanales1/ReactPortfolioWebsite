@@ -13,6 +13,10 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <li onClick={()=>setMenuOpen(false)}>
               <a href="#works">Works</a>
           </li>
+          <li onClick={()=>setMenuOpen(false)}>
+              <a href="https://docs.google.com/document/d/1uuYogOQNyGI5x6hiTGNLEb-ogOugHzgbVuyaMfTB73U/edit?usp=sharing">Resume</a>
+          </li>
+
       </ul>
   </div>
   )
