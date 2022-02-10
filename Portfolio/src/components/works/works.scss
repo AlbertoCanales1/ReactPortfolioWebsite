@@ -1,9 +1,11 @@
 .works{
-    background-color: lightgreen;
+    background-color: skyblue;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+
+   
 
     .arrow{
         height: 50px;
@@ -20,21 +22,21 @@
         }
     }
 
-  
-
     .slider{
         height: 350px;
         display: flex;
         position: absolute;
         left: -0;
         transition: all 1s ease-out;
+        overflow: hidden;
 
         .container{
-            
             width: 100vw;
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
+            
 
             .item{
                 width: 700px;
@@ -44,6 +46,14 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                transition: all 0.5s ease;
+                cursor: pointer;
+                overflow: hidden;
+                
+
+                // &:hover{
+                //     background-color: lightblue;
+                // }
 
                 .left{
                     flex: 4;
@@ -67,10 +77,13 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            overflow: hidden;
 
                             img{
                                 width: 25px;
                             }
+
+                           
                         }
                         
                         h2{
@@ -78,6 +91,20 @@
                         }
                         p{
                             font-size: 20px;
+                            
+                        }
+                        h1{
+                            display: flex;
+                            position: relative;
+                            margin-top: 10px;
+                        }
+                        link{
+                            font-size: 20px;
+                            
+                        }
+                        a{
+                            font-size: 20px;
+                            text-decoration: underline;
                             
                         }
                         span{
@@ -99,8 +126,18 @@
                         transform: rotate(50deg);
                     }
                 }
+
+                // &:hover{
+                //     background-color: lightgray;
+                //     img{
+                //         opacity: 0.8;
+                       
+                //     }
+                // }
             }
         }
+
+        
     }
 
 }
